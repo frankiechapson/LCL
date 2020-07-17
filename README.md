@@ -33,8 +33,8 @@ This table contains the valid user/client/program combinations.<br>
 The column values will use with LIKE, so it can be pattern.
 i.e. "%" means "every" user/IP address/program e.t.c.
 But '%','%','%','%','Y' means anybody from anywhere, and this overwrites any other rules!
-The refused logon data will be logged into LCL_LOG table.
-There is an ENABLED column too, so you can disabled the logins anytime to set this value to "N".
+The refused logon data will be logged into LCL_LOG table.<br>
+There is an ENABLED column in the LCL_TABLE too, so you can disabled the logins anytime to set this value to "N".
 
 
 The whole solution is not too complicated, so see the install script file for more details!
